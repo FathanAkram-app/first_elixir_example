@@ -23,7 +23,8 @@ defmodule FirstElixirExampleWeb.Router do
   scope "/api", FirstElixirExampleWeb do
     pipe_through :api
 
-    resources "/projects", ProjectController, only: [:show,:index]
+    resources "/projects", ProjectController, only: [:index, :show]
+    resources "/documents", DocumentController, only: [:index, :show]
   end
 
   # Enables LiveDashboard only for development
