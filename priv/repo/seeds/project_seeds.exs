@@ -13,5 +13,5 @@ Repo.insert! %Project{
 
 Repo.insert! %Project{
     title: "First Elixir Example",
-    description: "this project is the first project of my elixir learning"
+    description: "this project is the first project of my elixir learnin"
 }
